@@ -15,5 +15,5 @@ jobs:
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{0ssLc9O0e06ZqLA-0o6oTGXNGzA5rW0Ezd_FCUMG}}
+          apiToken: 0ssLc9O0e06ZqLA-0o6oTGXNGzA5rW0Ezd_FCUMG
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
